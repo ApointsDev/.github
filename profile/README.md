@@ -8,7 +8,7 @@
 
 | 项目 | GitHub 仓库 | 负责人 | 职责与仓库关系 |
 | --- | --- | --- | --- |
-| 锚客户端 | [AnchorClient](https://github.com/ApointsDev/AnchorClient) | [@Metalxiaoxiao](https://github.com/metalxiaoxiao) [@TristanChayne](https://github.com/TristanChayne) | Android、iOS 和 Windows 界面。通过 AnchorScheduler 读写日程，也提供微信助手设置和 AMS 校园功能入口，AMS 桥接和UX设计由 @TristanChayne 负责。 |
+| AnchorCat客户端 | [AnchorClient](https://github.com/ApointsDev/AnchorClient) | [@Metalxiaoxiao](https://github.com/metalxiaoxiao) [@TristanChayne](https://github.com/TristanChayne) | Android、iOS 和 Windows 界面。通过 AnchorScheduler 读写日程，也提供微信助手设置和 AMS 校园功能入口，AMS 桥接和UX设计由 @TristanChayne 负责。 |
 | 日程系统与 Web 端 | [AnchorScheduler](https://github.com/ApointsDev/AnchorScheduler) | [@TristanChayne](https://github.com/TristanChayne)、[@qy321666](https://github.com/qy321666)、[@Metalxiaoxiao](https://github.com/Metalxiaoxiao) | 包含 Web 前端和日程后端。为 AnchorClient 提供日程、待办等接口，为 AnchorWechatBot 提供 AI 助手能力；使用 CAF 统一登录。 |
 | 微信助手网关 | [AnchorWechatBot](https://github.com/ApointsDev/AnchorWechatBot) | [@Metalxiaoxiao](https://github.com/Metalxiaoxiao) | 接收公众号和微信机器人的消息，转交给 AnchorScheduler 的 AI 助手，再将回复送回微信。 |
 | AMS 校园助手 | [AMS-campus-assistant](https://github.com/ApointsDev/AMS-campus-assistant) | [@TristanChayne](https://github.com/TristanChayne) | 维护校园助手的应用、小程序、管理网页和服务。校园业务在此维护，AnchorCat客户端内的集成入口在 AnchorClient。 |
